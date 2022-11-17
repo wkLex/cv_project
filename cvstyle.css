@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap');
+* ,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+ul {
+    list-style: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 1rem;
+}
+
+.left{
+    background-color: antiquewhite;
+}
+.left-image{
+    position: relative;
+}
+
+.left-image img{
+    width: 100%;
+ }
+ 
+.personal,
+.fondof,
+.skills,
+.languages{
+    padding: 1rem;
+    line-height: 2rem;
+}
+ 
+    .right{
+        background-color:white;
+        padding: 1rem;
+    }   
+    
+       .experience, .education {
+        line-height: 1.4;
+        margin: 2rem;
+       }
+
+       .quote{text-align: center;
+        line-height: 1.4;
+        margin-top: 2rem;
+
+       }
+
+
+    
